@@ -97,7 +97,6 @@ class UserController extends Controller
     {
         $usuarios = new User();
 
-        $usuarios->id = 4;
         $usuarios->name = $request->input('name');
         $usuarios->name = $request->input('name');
         $usuarios->lastname = $request->input('lastname');
